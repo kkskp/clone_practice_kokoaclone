@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -25,9 +25,9 @@
         <h1 class="welcome-header__title">Welcome to Kokoa clone</h1>
         <p class="welcome-header__text">이미 카카오 계정을 가지신 분께서는 당신의 이메일 혹은 핸드폰번호를 이용해 로그인 해 주세요</p>
     </header>
-    <form id="login-form">
-        <input type="text" placeholder="Email or Phone number" />
-        <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or Phone number" />
+        <input name="password" type="password" placeholder="Password" />
         <input class="login-form__click" type="submit" value="Log in" />
         <input class="login-form__click" type="submit" value="Sign up" />
         <a href="#">카카오 계정이나 비밀번호를 찾으려면 이곳을 눌러주세요</a>
