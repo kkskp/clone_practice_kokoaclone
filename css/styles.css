@@ -5,12 +5,25 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "components/friends.css";
+@import "components/user-component.css";
 
 /* screen */
 @import "screen/login.css";
+@import "screen/find.css";
+@import "screen/friends.css";
 
 body{
     color: #2e363e;
     font-family: 'Open Sans', sans-serif;
+}
+
+.spot{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;    
+    position: absolute;
+    right: 20px;
+    top: 45px;
 }
