@@ -1,0 +1,22 @@
+.Suggestions {
+    display: flex;
+    justify-content: flex-start;
+    border-top: var(--main-border);
+    margin-left: var(--horizontal-space);
+    margin-right: var(--horizontal-space);
+    margin-bottom: 20px;
+}
+
+.Suggestions__header {
+    margin-top: 20px;
+    margin-left: var(--horizontal-space);
+}
+
+.Suggestions__title {    
+    font-size: 18px;
+    font-weight: 600;
+}
+
+main > div:nth-child(5) i {
+    color: yellowgreen;
+}

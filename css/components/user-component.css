@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.user-component__column i{
+    margin-right: var(--horizontal-space);
+}
+
 .user-component__text{
     display: flex;
     flex-direction: column;

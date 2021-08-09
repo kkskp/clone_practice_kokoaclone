@@ -1,24 +1,119 @@
-.find-icons {
+.recommened-friends{
+    margin: 0px var(--horizontal-space);
+    padding: 25px 0px;
+    border-bottom: var(--main-border);
+}
+
+.recommened-friends-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px
+}
+
+.recommened-friends span{
+    display: block;
+    margin: 100px 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+.open-chat{
+    margin: 0px var(--horizontal-space);
+}
+
+.open-chat__header {
     display: flex;
     justify-content: space-between;
-    margin-left: var(--horizontal-space);
-    margin-right: var(--horizontal-space);    
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-top: 25px;
+    opacity: 0.8;
+    font-size: 18px;
 }
 
-.find-icons__icon {    
+.open-chat__header span {
+    opacity: 0.6;
+    font-size: 18px;
+}
+.open-chat__header i {
+    margin-left: 5px;
+}
+
+.open-post {
+    margin-top: 35px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: rgba(0,0,0,0.7);
-    font-size: 15px;
+    
 }
 
-.find-icons__icon i {
-    font-size: 40px;
+.open-post__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 3px;
 }
 
-.find-icons__icon span {
-    margin-top: 15px;
+.open-post__hashtag{
+    font-size: 20px;
+    opacity: 0.6;
+    margin-bottom: 3px;
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+}
+
+.open-post__members img {
+    width: 15px;
+    height: 15px;
+    border-radius: 35%;
+    margin-right: 5px;
+}
+
+.open-post__members-count{
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.divider {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    width: 5px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.open-post__members-status {
+    font-size: 14px;
+    color: teal;
+}
+
+.open-post__photo{
+    position: relative;
+}
+
+.open-post__photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-post__heartcount {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+}
+
+.open-post__heartcount span {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+#open-post_01 {
+    padding-bottom: 25px;
+    border-bottom: var(--main-border);
 }
