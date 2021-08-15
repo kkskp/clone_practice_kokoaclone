@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
 /* components */
 @import "components/reset.css";
 @import "components/variable.css";
@@ -7,24 +7,27 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/find.css";
 @import "screen/friends.css";
 @import "screen/option.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 
-body{
+body {
     color: #2e363e;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-.spot{
+.spot {
     background-color: tomato;
     width: 5px;
     height: 5px;
     border-radius: 2.5px;
-    display: flex;    
+    display: flex;
     position: absolute;
     right: 20px;
     top: 45px;
