@@ -1,15 +1,27 @@
-.screen-header{
+.screen-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 25px 20px 25px;
 }
 
-.screen-header__title{
+.screen-header__title {
     font-size: 32px;
     font-weight: 600;
 }
 
 .screen-header__icons i {
     margin-left: 25px;
+}
+
+@keyframes Rotatecog {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-cog:hover {
+    animation: Rotatecog 2s linear infinite;
 }
